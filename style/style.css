@@ -8,6 +8,8 @@ body {
   background: black;
 }
 .header {
+  margin-top: 70px;
+  margin-bottom: 40px;
   text-align: center;
 }
 .header h1 {
@@ -34,8 +36,15 @@ h2 {
   font-family: var(--heading-font);
   font-weight: 300;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
+.header-about h1 {
+  font-family: var(--heading-font);
+  color: var(--accent-color);
+  font-weight: 400;
+  font-size: 45px;
+}
+
 .container {
   max-width: 1000px;
 }
@@ -59,6 +68,10 @@ p {
 footer {
   color: white;
   text-align: center;
+}
+
+.header-about {
+  padding-top: 85px;
 }
 
 @media (max-width: 770px) {
@@ -85,5 +98,12 @@ footer {
     padding: 5px 10px;
     font-size: 15px;
     margin-bottom: 0;
+  }
+  .header-about h1 {
+    font-size: 35px;
+  }
+  .header-about {
+    margin-top: 35px;
+    padding: 30px;
   }
 }
