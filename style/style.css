@@ -1,3 +1,9 @@
+:root {
+  --accent-color: #ca68f4;
+  --heading-font: "overpass mono";
+  --paragraph-font: "Overpass", sans-serif;
+}
+
 body {
   background: black;
 }
@@ -5,26 +11,26 @@ body {
   text-align: center;
 }
 .header h1 {
-  font-family: "overpass mono";
-  color: #ca68f4;
+  font-family: var(--heading-font);
+  color: var(--accent-color);
   font-weight: 400;
   font-size: 70px;
 }
 .header h2 {
-  font-family: "overpass mono";
+  font-family: var(--heading-font);
   font-weight: 300;
   color: white;
   font-size: 20px;
 }
 .btn-light {
-  font-family: "overpass mono";
-  background-color: #ca68f4;
+  font-family: var(--heading-font);
+  background-color: var(--accent-color);
   color: white;
   border: none;
   padding: 10px 30px;
 }
 p {
-  font-family: "Overpass", sans-serif;
+  font-family: var(--paragraph-font);
   font-weight: 300;
   color: white;
 }
