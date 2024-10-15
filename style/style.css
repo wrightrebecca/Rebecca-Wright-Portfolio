@@ -111,12 +111,16 @@ img:hover {
   -webkit-filter: grayscale(0);
 }
 .navbar {
-  font-family: var(--heading-font) !important;
+  font-family: var(--heading-font);
   padding: 10;
   font-size: 14px;
+  margin-left: 130px;
 }
 .nav-link {
   margin-right: 30px;
+}
+.active {
+  color: var(--accent-color) !important;
 }
 @media (max-width: 770px) {
   .container {
