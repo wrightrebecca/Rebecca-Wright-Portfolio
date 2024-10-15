@@ -133,7 +133,9 @@ img:hover {
 .active {
   color: var(--accent-color) !important;
 }
-
+.coded-by {
+  font-size: 10px;
+}
 @media (max-width: 770px) {
   .container {
     padding: 20px;
