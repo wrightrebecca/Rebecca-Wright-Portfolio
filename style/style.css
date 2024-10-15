@@ -95,6 +95,17 @@ p {
 footer {
   color: white;
   text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+footer .social-links a {
+  margin: 20px;
+  color: var(--accent-color);
+  font-size: 25px;
+}
+footer .social-links a:hover {
+  color: white;
+  transition: all 0.4s ease;
 }
 
 .header-content {
@@ -122,6 +133,7 @@ img:hover {
 .active {
   color: var(--accent-color) !important;
 }
+
 @media (max-width: 770px) {
   .container {
     padding: 20px;
