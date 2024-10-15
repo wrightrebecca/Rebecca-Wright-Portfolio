@@ -26,7 +26,33 @@
   </head>
 </html>
 <body>
-  <a href="index.html"> Back to home</a>
+  <nav
+    class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-body fixed-top"
+    data-bs-theme="dark"
+  >
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active" href="about.html">About Me</a>
+          <a class="nav-link" href="work.html">My Projects</a>
+          <a class="nav-link" href="contact.html">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <div class="header-content container">
     <div class="row">
       <div class="col-md-8">
@@ -44,7 +70,7 @@
       <div class="col-md-4">
         <img
           src="images/rebecca.jpg"
-          class="img-fluid border border-4 rounded"
+          class="img-fluid border border-4 rounded mt-4"
         />
       </div>
     </div>

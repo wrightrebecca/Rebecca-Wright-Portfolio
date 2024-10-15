@@ -5,7 +5,7 @@
 }
 
 body {
-  background: black;
+  background: #2b3035;
 }
 .header {
   margin-top: 70px;
@@ -17,6 +17,7 @@ body {
   color: var(--accent-color);
   font-weight: 400;
   font-size: 70px;
+  padding-top: 30px;
 }
 .header h2 {
   font-family: var(--heading-font);
@@ -50,9 +51,10 @@ h3 {
   color: var(--accent-color);
   font-weight: 400;
   font-size: 45px;
+  padding-top: 30px;
 }
 .header-content h2 {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   font-size: 16px;
 }
 .container {
@@ -108,7 +110,14 @@ img:hover {
   -webkit-transition: all 0.6s ease;
   -webkit-filter: grayscale(0);
 }
-
+.navbar {
+  font-family: var(--heading-font) !important;
+  padding: 10;
+  font-size: 14px;
+}
+.nav-link {
+  margin-right: 30px;
+}
 @media (max-width: 770px) {
   .container {
     padding: 20px;
