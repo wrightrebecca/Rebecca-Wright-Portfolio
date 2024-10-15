@@ -44,10 +44,18 @@ h2 {
   font-weight: 400;
   font-size: 45px;
 }
-
+.header-content h2 {
+  padding-bottom: 40px;
+  font-size: 16px;
+}
 .container {
   max-width: 1000px;
 }
+.portfolio-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 p {
   font-family: var(--paragraph-font);
   font-weight: 300;
@@ -55,6 +63,16 @@ p {
   font-size: 16px;
   line-height: 1.5;
   opacity: 75%;
+}
+
+.portfolio-container h2 {
+  padding-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.portfolio-container p {
+  text-align: center;
 }
 .external-links {
   font-family: var(--paragraph-font);
@@ -115,5 +133,8 @@ img:hover {
   .header-content {
     margin-top: 35px;
     padding: 30px;
+  }
+  .portfolio-container {
+    padding: 0px 60px 10px 60px;
   }
 }
